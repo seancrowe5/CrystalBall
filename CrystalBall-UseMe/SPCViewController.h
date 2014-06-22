@@ -10,4 +10,11 @@
 
 @interface SPCViewController : UIViewController
 
+//Button
+- (IBAction)buttonPressed;
+
+//Label
+@property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
+
+
 @end

@@ -112,8 +112,6 @@
 		21309BF11955F52000D3C48F /* CrystalBall-UseMe */ = {
 			isa = PBXGroup;
 			children = (
-				21309BFA1955F52000D3C48F /* SPCAppDelegate.h */,
-				21309BFB1955F52000D3C48F /* SPCAppDelegate.m */,
 				21309BFD1955F52000D3C48F /* Main.storyboard */,
 				21309C001955F52000D3C48F /* SPCViewController.h */,
 				21309C011955F52000D3C48F /* SPCViewController.m */,
@@ -126,6 +124,8 @@
 		21309BF21955F52000D3C48F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				21309BFA1955F52000D3C48F /* SPCAppDelegate.h */,
+				21309BFB1955F52000D3C48F /* SPCAppDelegate.m */,
 				21309BF31955F52000D3C48F /* CrystalBall-UseMe-Info.plist */,
 				21309BF41955F52000D3C48F /* InfoPlist.strings */,
 				21309BF71955F52000D3C48F /* main.m */,
