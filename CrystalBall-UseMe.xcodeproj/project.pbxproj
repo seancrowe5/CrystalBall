@@ -21,6 +21,7 @@
 		21309C0D1955F52100D3C48F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21309BEF1955F52000D3C48F /* UIKit.framework */; };
 		21309C151955F52100D3C48F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21309C131955F52100D3C48F /* InfoPlist.strings */; };
 		21309C171955F52100D3C48F /* CrystalBall_UseMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21309C161955F52100D3C48F /* CrystalBall_UseMeTests.m */; };
+		21309C2219575CF000D3C48F /* CrystalBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 21309C2119575CF000D3C48F /* CrystalBall.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		21309C121955F52100D3C48F /* CrystalBall-UseMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrystalBall-UseMeTests-Info.plist"; sourceTree = "<group>"; };
 		21309C141955F52100D3C48F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21309C161955F52100D3C48F /* CrystalBall_UseMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalBall_UseMeTests.m; sourceTree = "<group>"; };
+		21309C2019575CEF00D3C48F /* CrystalBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrystalBall.h; sourceTree = "<group>"; };
+		21309C2119575CF000D3C48F /* CrystalBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrystalBall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				21309BFD1955F52000D3C48F /* Main.storyboard */,
 				21309C001955F52000D3C48F /* SPCViewController.h */,
 				21309C011955F52000D3C48F /* SPCViewController.m */,
+				21309C2019575CEF00D3C48F /* CrystalBall.h */,
+				21309C2119575CF000D3C48F /* CrystalBall.m */,
 				21309C031955F52000D3C48F /* Images.xcassets */,
 				21309BF21955F52000D3C48F /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21309C021955F52000D3C48F /* SPCViewController.m in Sources */,
+				21309C2219575CF000D3C48F /* CrystalBall.m in Sources */,
 				21309BF81955F52000D3C48F /* main.m in Sources */,
 				21309BFC1955F52000D3C48F /* SPCAppDelegate.m in Sources */,
 			);

@@ -7,6 +7,7 @@
 //
 
 #import "SPCViewController.h"
+#import "CrystalBall.h"
 
 @interface SPCViewController ()
 
@@ -17,30 +18,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
+    self.crystalball = [[CrystalBall alloc] init];
 }
 
 -(void)viewDidAppear:(BOOL)animated{
     
     [super viewDidAppear:animated];
-    CGRect frame = self.predictionLabel.frame;
-    self.predictionLabel.frame=CGRectMake(frame.origin.x, 200, frame.size.width, frame.size.height);
-}
+    }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
-//This is the implementation of the button
-//we are printing out "button presseD" in the console
 - (IBAction)buttonPressed {
     
-    //print out when pressed
-    NSLog(@"Button Presed");
-    
-    //change label text to yes when pressed
-    self.predictionLabel.text=@"Yes";
+    self.predictionLabel.text = [self.crystalball randomPrediction];
 }
 @end

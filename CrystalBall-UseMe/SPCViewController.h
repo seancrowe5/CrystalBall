@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+@class CrystalBall;
 
 @interface SPCViewController : UIViewController
 
@@ -15,6 +16,9 @@
 
 //Label
 @property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
+@property (strong,nonatomic) CrystalBall *crystalball;
+
+
 
 
 @end
