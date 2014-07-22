@@ -11,14 +11,12 @@
 
 @interface SPCViewController : UIViewController
 
-//Button
-- (IBAction)buttonPressed;
-
-//Label
 @property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
 @property (strong,nonatomic) CrystalBall *crystalball;
 
+- (void) makePrediction;
 
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
 
 
 @end
